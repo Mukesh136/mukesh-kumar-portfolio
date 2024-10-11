@@ -6,9 +6,8 @@
 .animated-info {
   display: inline-block;
   vertical-align: top;
-  /* margin-top: 5px; */
   margin-bottom: 50px;
-  min-width: 500px;
+  width: 100%;
   position: relative;
 }
 
@@ -67,6 +66,7 @@
 @media (max-width: 1024px){
 .animated-item {
   color:chocolate;
+  font-size: 30px;
   
 }
 }
