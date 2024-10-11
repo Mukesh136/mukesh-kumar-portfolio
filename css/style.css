@@ -28,14 +28,7 @@ Author E-mail: naimlasker@gmail.com
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /*---------------------------------------------------- */
-.home_banner_area .banner_inner .banner_content h1
-.home_banner_area .banner_inner .banner_content h3
-.home_banner_area .banner_inner
-.home_banner_area .banner_inner .banner_content .primary_btn
-.brand_area
-.testi_item
-.banner_area .banner_inner
-.banner_area .banner_inner .banner_content h2
+
 /*----------------------------------------------------*/
 body {
   line-height: 26px;
@@ -501,6 +494,7 @@ button:focus {
 
 .home_banner_area .banner_inner {
   width: 100%;
+  padding: 50px 0;
 }
 
 .home_banner_area .banner_inner .home_right_img {
@@ -578,7 +572,6 @@ button:focus {
 @media (max-width: 1024px) {
   .home_banner_area .banner_inner .banner_content h1 {
     font-size: 60px;
-    color:aliceblue;
   }
   .home_banner_area .banner_inner .banner_content h1 span {
     font-size: 60px;
@@ -588,7 +581,14 @@ button:focus {
 
 @media (max-width: 767px) {
   .home_banner_area .banner_inner .banner_content h1 {
-    font-size: 50px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: aliceblue;
+  }
+  .home_banner_area .banner_inner .banner_content h1 span {
+    font-size: 30px;
+    color:#e13b33;
   }
 }
 
@@ -672,6 +672,9 @@ button:focus {
 @media (max-width: 991px) {
   .banner_area .banner_inner .banner_content h2 {
     font-size: 30px;
+    color: aliceblue;
+  }
+  .home_banner_area .banner_inner .banner_content h1{
     color: aliceblue;
   }
   .banner_area .banner_inner .banner_content h2 span {
@@ -1731,7 +1734,7 @@ button:focus {
 
 @media (max-width: 360px) {
   .mapBox iframe {
-    width: 100%;
+    width: 325px;
     height: 300px;
   }
 }
@@ -4037,7 +4040,7 @@ h6 {
   /* Home Banner Area css
   ============================================================================================ */
   .home_banner_area .banner_inner {
-    padding: 100px 0px;
+    /* padding: 100px 0; */
   }
 
   /* End Home Banner Area css
@@ -4281,7 +4284,7 @@ h6 {
 
   .home_banner_area .banner_inner {
     min-height: 300px;
-    padding: 100px 0;
+    /* padding-top: 100px; */
     
   }
 
@@ -4290,9 +4293,13 @@ h6 {
   }
 
   .home_banner_area .banner_inner .banner_content .primary_btn {
+    font-size: 12px;
          
   }
-
+  .home_banner_area .banner_inner .banner_content .primary_btn span{
+    padding: 0 12px;
+         
+  }
   /* Blog Page Area css
   ============================================================================================ */
   .blog_info.text-right {
@@ -4365,12 +4372,12 @@ h6 {
     line-height: 38px;
   }
 
-  .home_banner_area {
+  /* .home_banner_area {
     min-height: 450px;
-  }
+  } */
 
   .home_banner_area .banner_inner {
-    min-height: 450px;
+    min-height: 415px;
   }
 
   .home_banner_area .banner_inner .banner_content img {
