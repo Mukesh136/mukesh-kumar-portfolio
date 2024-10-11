@@ -1,5 +1,5 @@
 
-
+.mapBox iframe
 /*----------------------------------------------------
 @File: Default Styles
 @Author: SPONDON IT
@@ -1724,14 +1724,14 @@ button:focus {
 
 @media (max-width: 991.98px) {
   .mapBox iframe {
-    width: 500px;
+    width: 100%;
     height: 300px;
   }
 }
 
 @media (max-width: 360px) {
   .mapBox iframe {
-    width: 325px;
+    width: 100%;
     height: 300px;
   }
 }
